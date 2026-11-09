@@ -3,13 +3,13 @@
 int main(void)
 {
     int n;
-    long result;
+    long result = 0;
     scanf("%d", &n);
     if(n>=0){
         for(int i = 0; i <= n; i++){
             result += i;
         }
-        printf("%ld", result);
+        printf("%ld \n", result);
     }
     else {
         printf("NG \n");
