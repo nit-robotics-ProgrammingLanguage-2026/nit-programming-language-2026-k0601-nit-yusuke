@@ -2,14 +2,14 @@
 
 int main(void)
 {
-    int n,
-        result;
+    int n;
+    long result;
     scanf("%d", &n);
     if(n>=0){
         for(int i = 0; i <= n; i++){
             result += i;
         }
-        printf("%d", result);
+        printf("%ld", result);
     }
     else {
         printf("NG \n");
